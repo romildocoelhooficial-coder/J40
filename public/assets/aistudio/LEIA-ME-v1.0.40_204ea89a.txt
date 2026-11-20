@@ -1,0 +1,247 @@
+====================================================================
+ JARVIS CyberBot v1.0.40 - o que mudou e o que o cliente precisa
+ Gerado em 11/11/2026
+====================================================================
+
+Continua valendo: a chave Gemini gratis e obrigatoria (engrenagem ->
+CHAVE, aistudio.google.com/apikey).
+
+
+NOVO NA v1.0.40
+---------------
+  - SECRETARIA NO CHAT DO WHATSAPP: alem das ligacoes, ela agora
+    responde as MENSAGENS do WhatsApp, com a mesma base (os arquivos
+    .txt da pasta "JARVIS Secretaria"). Ela ouve os audios que
+    chegam e pode responder com audio, na voz escolhida.
+  - COMO LIGAR: janela do CONECTAR WHATSAPP, linha "MENSAGENS:
+    DESLIGADO - ligar". Ao lado, o jeito de responder: SO TEXTO,
+    SO AUDIO ou OS DOIS (uma hora digita, outra manda audio; quem
+    mandou audio recebe audio). Mais opcoes na engrenagem, aba
+    SECRETARIA, parte MENSAGENS. Vem DESLIGADA.
+  - O QUE ELA RESPEITA: so conversas particulares (grupo nao) e so
+    mensagem nova; se voce responder a pessoa pelo celular, ela fica
+    quieta com aquela pessoa por 30 minutos; contato de "nunca
+    atender sozinha" ela so avisa, e o de "sempre recusar" ela
+    ignora. Quando pedem voce ou ela nao sabe a resposta, vira
+    recado (balao verde na conversa do JARVIS).
+  - LIGACOES MAIS FIRMES: ela nao desliga mais na cara. Espera a
+    pessoa se despedir, pergunta "mais alguma coisa?" uma vez so e,
+    se a conexao com a voz cair no meio, volta sozinha. Com a voz
+    dela nas caixas do PC, ela nao responde mais ao proprio eco.
+  - O JARVIS NAO FALA MAIS quando alguem liga ou manda mensagem: o
+    aviso fica no cartao no canto da tela e escrito na conversa.
+    Para responder a pergunta dela pela voz, diga "responde que
+    ..." ou "fala pra ela que ..."; ou responda no cartao.
+  - NOME "JARVIS" nos Aparelhos conectados do celular (aparece
+    para quem conectar o WhatsApp de novo).
+
+
+CONTINUA DA v1.0.39
+===================
+  - SECRETARIA DO WHATSAPP: quando alguem te liga no WhatsApp, ela
+    atende com a voz que voce escolher (JARVIS, Leda e as outras),
+    conversa ao vivo com a pessoa, anota o recado e no fim te conta
+    quem ligou e o que ficou combinado. Ela sempre se apresenta como
+    assistente virtual.
+  - COMO LIGAR: botao CONECTAR WHATSAPP. Depois do QR de sempre (o
+    das mensagens) aparece o PASSO 2 DE 2: um segundo codigo, o das
+    LIGACOES. No celular: Aparelhos conectados -> Conectar aparelho
+    de novo, e leia esse segundo codigo. Embaixo, na mesma janela:
+    SECRETARIA LIGADA / DESLIGADA e o jeito de atender.
+  - TRES JEITOS DE ATENDER:
+      * ME PERGUNTA: o cartao no canto da tela mostra quem esta
+        ligando e voce clica ou diz "atende", "eu atendo" ou
+        "recusa"; no meio da ligacao ela pode te perguntar coisas
+        ("um momento, vou ver com ele") e voce responde no cartao;
+      * 100% AUTOMATICA: ela atende sozinha e responde SO pelo que
+        estiver nos arquivos .txt da pasta "JARVIS Secretaria" (em
+        Documentos); o que nao estiver la vira recado;
+      * SO ME AVISA: ela so diz quem esta ligando.
+  - O QUE ELA SABE: engrenagem -> aba SECRETARIA -> EDITAR AS
+    INFORMACOES (TXT) ou ADICIONAR ARQUIVO (TXT): horario, servicos,
+    precos, o que dizer para cada pessoa. Ela le tudo de novo a cada
+    ligacao.
+  - RECADO EM DESTAQUE: no fim da ligacao o recado, os compromissos
+    e se voce precisa retornar aparecem num balao verde na conversa
+    (sem a conversa inteira). Cada ligacao fica salva na pasta
+    "JARVIS Secretaria" (ligacoes e recados.txt).
+  - MAIS OPCOES na aba SECRETARIA: a voz dela, o recado do momento
+    ("estou em reuniao ate as 16h"), os tempos de espera, contatos
+    que ela nunca atende sozinha, contatos para sempre recusar (com
+    mensagem pelo WhatsApp) e "Tocar a voz dela nas caixas do PC"
+    (bom para gravar video).
+  - PRECISA: a chave Gemini do JARVIS (ela usa a voz ao vivo da
+    Gemini) e o Microsoft Edge ou o Google Chrome no computador (no
+    Windows o Edge ja vem instalado). A ligacao pelo WhatsApp Web
+    precisa estar liberada na sua conta do WhatsApp.
+  - Em ingles tambem (JARVIS configurado em ingles).
+  - JANELA DO WHATSAPP SEM TRAVAR: clicar em CONECTAR WHATSAPP nao
+    deixa mais o JARVIS parado por alguns segundos.
+
+
+  - GLOBO: botao GLOBO na barra de baixo, ou a tecla F6. A Terra em
+    3D, com todos os paises e cidades: clique em um lugar para ver
+    a ficha dele, entre no Street View ou no Google Maps, meca a
+    distancia entre dois pontos.
+  - GLOBO POR VOZ, EM TEMPO REAL: fale do seu jeito, por exemplo
+    "vai na capital do Japao", "agora o Chile", "entra no bairro
+    tal", "entra no Street View". Ele vai na hora, sem esperar o
+    cerebro.
+  - PASSEIO GUIADO: "entra na Avenida Paulista e vai andando me
+    mostrando os pontos". Em qualquer lugar do mundo que tenha
+    Street View, ele anda sozinho pela rua, vira a camera para cada
+    lugar e explica o que e. Para quando voce falar "para" ou
+    clicar em PARAR O PASSEIO.
+  - MAIS LEVE: abre mais rapido, gasta menos processador e para de
+    desenhar a tela quando outra janela cobre o JARVIS. Em PC fraco
+    sem placa NVIDIA, ele passa a ouvir pela nuvem sozinho (usa a
+    sua chave Gemini) e responde bem mais rapido.
+  - FORMULARIOS: "ativar computador, preenche esse formulario com
+    os meus dados e envia". Ele usa o que voce ja contou para ele
+    (a memoria do seu proprio JARVIS).
+  - O instalador ficou um pouco maior porque leva o navegador do
+    globo. Street View, satelite de perto e passeio precisam de
+    internet.
+
+
+  - SEGUNDO PLANO: botao SEGUNDO PLANO na barra de baixo, ou a
+    tecla F9 (escrita embaixo dos botoes). O JARVIS sai da tela e
+    fica so o icone dele perto do relogio (no Windows, na setinha
+    ao lado do relogio). Enquanto estiver assim ele NAO ouve (o
+    microfone fica desligado de verdade), nao fala, nao responde e
+    nao faz nada - nem pelo celular (Controle Remoto) nem pelo
+    WhatsApp.
+  - PARA VOLTAR: clique no icone dele (ou, com o botao direito,
+    "Abrir o JARVIS"). Clicar no atalho da area de trabalho com
+    ele escondido tambem traz o JARVIS de volta. O menu do icone
+    tem "Fechar o JARVIS".
+  - No Linux sem area de notificacao (por exemplo, GNOME sem a
+    extensao AppIndicator), ele minimiza na barra de tarefas em
+    vez de sumir; e so restaurar a janela.
+  - MICROFONE (atualizacao de 02/11/2026): ao abrir, a escolha
+    automatica nao pega mais o Stereo Mix (o som do proprio PC), que
+    deixava o JARVIS sem ouvir a pessoa. Na engrenagem ele continua
+    na lista, para quem quiser escolher a mao.
+
+
+  - INICIAR COM O WINDOWS: engrenagem -> VOZ E JEITO -> INICIAR COM
+    O WINDOWS (LIGADA / DESLIGADA). Ligada, o JARVIS abre sozinho
+    toda vez que o computador liga. Desliga ali mesmo ou pelo
+    Gerenciador de Tarefas (Aplicativos de inicializacao).
+  - RESPOSTA MAIS RAPIDA:
+      * quando um programa demora para abrir, ele ja responde
+        enquanto abre, em vez de ficar calado ate terminar;
+      * a primeira frase depois de abrir o JARVIS sai mais rapido;
+      * depois de trocar a voz, o jeito ou o nome da voz, a
+        primeira resposta nao atrasa mais.
+  - HORA CERTA: "que horas sao e que dia e hoje" na mesma frase
+    sai do relogio do computador (antes podia sair a hora de outro
+    fuso horario).
+  - ENTENDE MELHOR OS NOMES: "chama o Jarvis", "chama a Leda" e
+    os nomes de todas as vozes (e os apelidos) sao reconhecidos
+    com qualquer voz falando.
+
+
+  - NOME PROPRIO PARA CADA VOZ: engrenagem -> VOZ E JEITO -> lapis
+    ao lado da voz. A Leda pode virar Roberta, por exemplo: ela se
+    apresenta, atende e aparece com o nome novo. Deixe vazio (ou
+    NOME ORIGINAL) para voltar ao de fabrica.
+  - CHAMAR OUTRA VOZ FALANDO: "Jarvis, chama a Leda". O JARVIS
+    avisa que vai chamar, a tela mostra a chamada e a Leda entra:
+    "Ola, chefe, estou aqui. O Jarvis falou que o senhor me
+    chamou?". Vale para todas as vozes e para os apelidos.
+  - O NOME DA VOZ ATUAL aparece embaixo do nucleo.
+  - MAIS LEVE: cerca de 400 MB a menos de memoria (a voz local de
+    reserva saiu, nao era mais usada) e metade da CPU com o JARVIS
+    parado; minimizado quase nao gasta nada. Abre mais rapido.
+  - Instalador menor (a voz local saiu do pacote).
+
+
+  - COWORK (o programador do JARVIS) muito melhor:
+      * usa o Python do proprio JARVIS: funciona em PC sem nada
+        instalado (instala sozinho o que o projeto precisa, dentro
+        da pasta do projeto);
+      * continua sozinho quando o projeto fica pela metade;
+      * testa de verdade: abre o programa, aperta Enter, tira foto,
+        clica no X e le os arquivos de erro, e corrige sozinho;
+      * depois de abrir para voce, confere se o programa continua
+        aberto; se fechou sozinho, corrige e abre de novo;
+      * todo projeto ganha um INICIAR.bat para abrir com dois
+        cliques (jogo, programa ou site);
+      * "inicia o jogo", "desfaz", "fecha o jogo" e "abre a
+        pasta" no campo do Cowork sao feitos na hora, no seu PC;
+      * pasta grande demais: o projeto novo vai para uma pasta nova.
+  - NOMES DA TELA: engrenagem -> aba NOMES. Troque o nome do alto
+    (J.A.R.V.I.S), a frase de baixo, o nome da janela, o nome dele
+    no chat, os titulos dos cartoes e dos botoes. Muda enquanto
+    voce digita e fica salvo; VOLTAR TODOS AO ORIGINAL desfaz.
+  - VOZ: mensagem longa nao e mais cortada no meio.
+
+
+  - 10 NUCLEOS para escolher: engrenagem -> aba NUCLEO. Reator,
+    Hexagono, Prisma, Cubo, Iris, Engrenagem, Atomo, Mandala,
+    Espectro e Vortice. Todos na cor do JARVIS, cada um com o seu
+    formato e o seu jeito de mexer quando o JARVIS fala e quando
+    voce fala. Muda na hora e fica salvo.
+  - WHATSAPP MAIS ESTAVEL:
+      * fechar o JARVIS nao estraga mais a sessao do WhatsApp (a
+        ponte salva tudo e sai sozinha antes de fechar);
+      * reabrir rapido nao deixa mais o WhatsApp "desconectado";
+      * se o celular desconectar o JARVIS, ele avisa;
+      * mensagens agendadas, avisos de mensagem e o agente agora
+        funcionam tambem no modo local;
+      * mensagens de erro claras ("nao achei o contato X, talvez
+        seja...", "esta desconectado, abri o QR Code");
+      * busca de contato por nome aproximado.
+
+
+RESPOSTA MAIS RAPIDA
+--------------------
+  - Conversa (cumprimento, pergunta, opiniao, curiosidade) agora e
+    respondida direto pela voz, sem passar pelo cerebro: a voz comeca
+    em cerca de 1,5 a 2 segundos.
+  - Pedidos de acao no computador, pesquisa, clima e noticias
+    continuam indo para o cerebro, como antes.
+  - Quando o cerebro gratis do Google esta fora do ar, o servidor
+    responde junto na hora, sem a espera de antes.
+
+
+VOZ
+---
+  - So a voz escolhida fala. Nao existe mais troca para outra voz
+    (local ou de reserva) no meio da conversa.
+  - Se a fala sair pela metade, ele completa o que faltou.
+  - Se o Google travar, ele tenta de novo sozinho; se mesmo assim nao
+    sair, a resposta fica escrita na conversa.
+  - Ao fechar, o JARVIS encerra as conexoes de voz direito: reabrir
+    logo depois nao da mais erro de limite.
+
+
+COMPUTER USE
+------------
+  - Botao novo COMPUTER USE na barra: clique e diga (ou digite) o que
+    ele deve fazer no computador. Durante a tarefa o botao vira PARAR.
+  - ESC para na hora (menos de meio segundo) e ele ja avisa que parou.
+  - "Ative e aguarde minhas instrucoes" agora so pergunta o que fazer,
+    em vez de ficar esperando sozinho.
+
+
+PERSONALIZAR AS CORES
+---------------------
+  - Engrenagem -> aba CORES: escolha a cor de cada parte (cor
+    principal, fundo, textos, nucleo em cada estado e cada botao da
+    barra).
+  - Passe o mouse no quadro de cores para ver a cor exata (RGB e
+    codigo #) na previa; clique para aplicar. Muda na hora e fica
+    salvo. VOLTAR A ORIGINAL e RESTAURAR TODAS desfazem.
+
+
+O QUE NAO VAI NO PACOTE (de proposito)
+--------------------------------------
+  - Nenhuma chave de API.
+  - Nenhuma sessao de WhatsApp, nenhum banco de conversa, nenhuma
+    mensagem agendada de outra pessoa.
+  - Nenhuma identidade de dispositivo remoto.
+  - Nenhum perfil de microfone, cores, nomes ou apelidos de voz
+    escolhidos, projeto do Cowork, log, backup ou cache de uso.
+  - Nenhuma opcao, recado ou ligacao da secretaria de outra pessoa.

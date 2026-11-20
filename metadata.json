@@ -1,0 +1,6 @@
+{
+  "name": "JARVIS Secretária Multi-Chamados",
+  "description": "Correção das funções da secretária do JARVIS CyberBot para atendimento simultâneo de múltiplos chamados no WhatsApp, com diagnóstico, simulador de concorrência e download do código corrigido.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
